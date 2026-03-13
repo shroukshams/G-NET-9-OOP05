@@ -16,16 +16,16 @@ namespace G_NET_9_OOP05
 
             #region q1 Q1 : What is an interface in C#? Why do we use interfaces instead of depending on concrete classes directly? Mention at least three benefits of using interfaces.
 
-            //An interface defines a contract that a class must follow.
-            //It specifies what a class can do, not how it does it.
-            //Benefits of using interfaces:
-            //1. Abstraction: Interfaces allow us to define methods without implementing them, providing a clear separation between what a class does and how it does it.
-            //2. Multiple Inheritance: A class can implement multiple interfaces, allowing for more flexible and modular design.
-            //3. Loose Coupling: By depending on interfaces rather than concrete classes, we can reduce dependencies and make our code more maintainable and testable.
-            //4. Polymorphism: Interfaces enable polymorphic behavior, allowing us to treat different classes that implement the same interface as the same type, which can simplify code and enhance flexibility.
-            //5. Testability: Interfaces make it easier to create mock objects for unit testing, allowing us to test components in isolation without relying on concrete implementations.
-            //6. Extensibility: Interfaces allow us to add new functionality without modifying existing code, adhering to the Open/Closed Principle of software design.
-            //7. Code Reusability: By defining common behaviors in interfaces, we can promote code reuse across different classes that implement the same interface./
+            ////An interface defines a contract that a class must follow.
+            ////It specifies what a class can do, not how it does it.
+            ////Benefits of using interfaces:
+            ////1. Abstraction: Interfaces allow us to define methods without implementing them, providing a clear separation between what a class does and how it does it.
+            ////2. Multiple Inheritance: A class can implement multiple interfaces, allowing for more flexible and modular design.
+            ////3. Loose Coupling: By depending on interfaces rather than concrete classes, we can reduce dependencies and make our code more maintainable and testable.
+            ////4. Polymorphism: Interfaces enable polymorphic behavior, allowing us to treat different classes that implement the same interface as the same type, which can simplify code and enhance flexibility.
+            ////5. Testability: Interfaces make it easier to create mock objects for unit testing, allowing us to test components in isolation without relying on concrete implementations.
+            ////6. Extensibility: Interfaces allow us to add new functionality without modifying existing code, adhering to the Open/Closed Principle of software design.
+            ////7. Code Reusability: By defining common behaviors in interfaces, we can promote code reuse across different classes that implement the same interface./
 
             #endregion
             #region q2
