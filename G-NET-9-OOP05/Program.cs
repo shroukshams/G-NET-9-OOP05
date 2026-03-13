@@ -48,10 +48,10 @@ namespace G_NET_9_OOP05
             #endregion
 
             #region Q3
-            //A shallow copy creates a new object but copies the references of the fields, meaning that both the original and the copied object point to the same memory location for reference-type fields. A deep copy, on the other hand, creates a new object and also creates new instances of any reference-type fields, ensuring that the original and copied objects are completely independent.
-            //You would use a shallow copy when you want to create a new object that shares the same data as the original, and you don't need to modify the reference-type fields independently. A deep copy is necessary when you want to ensure that changes to the copied object do not affect the original object, especially when dealing with mutable reference-type fields.
-            //The risk of using a shallow copy when the object has reference-type fields is that if you modify the reference-type field in the copied object, it will also affect the original object since both objects point to the same memory location for that field. This can lead to unintended side effects and bugs in your program.
-            //In general, prefer deep copies when working with complex objects that contain reference-type fields to avoid these issues.
+            ////A shallow copy creates a new object but copies the references of the fields, meaning that both the original and the copied object point to the same memory location for reference-type fields. A deep copy, on the other hand, creates a new object and also creates new instances of any reference-type fields, ensuring that the original and copied objects are completely independent.
+            ////You would use a shallow copy when you want to create a new object that shares the same data as the original, and you don't need to modify the reference-type fields independently. A deep copy is necessary when you want to ensure that changes to the copied object do not affect the original object, especially when dealing with mutable reference-type fields.
+            ////The risk of using a shallow copy when the object has reference-type fields is that if you modify the reference-type field in the copied object, it will also affect the original object since both objects point to the same memory location for that field. This can lead to unintended side effects and bugs in your program.
+            ////In general, prefer deep copies when working with complex objects that contain reference-type fields to avoid these issues.
 
 
             #endregion
