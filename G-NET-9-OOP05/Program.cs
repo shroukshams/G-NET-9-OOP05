@@ -29,19 +29,19 @@ namespace G_NET_9_OOP05
 
             #endregion
             #region q2
-            //a) The problem with this design is that both interfaces have a method called Greet(), which creates ambiguity for the Translator class. The class does not know which Greet() method to implement, leading to a compilation error.
-            //b) To fix this, we can use explicit interface implementation. This technique allows us to implement each interface's Greet() method separately, specifying which one belongs to which interface. Here's how you can do it:
-            //class Translator : IEnglishSpeaker, IArabicSpeaker
-            //{
-            //    void IEnglishSpeaker.Greet()
-            //    {
-            //        Console.WriteLine("Hello");
-            //    } 
-            //    void IArabicSpeaker.Greet()
-            //    {
-            //        Console.WriteLine("Ahlan");
-            //    }
-            //}
+            ////a) The problem with this design is that both interfaces have a method called Greet(), which creates ambiguity for the Translator class. The class does not know which Greet() method to implement, leading to a compilation error.
+            ////b) To fix this, we can use explicit interface implementation. This technique allows us to implement each interface's Greet() method separately, specifying which one belongs to which interface. Here's how you can do it:
+            ////class Translator : IEnglishSpeaker, IArabicSpeaker
+            ////{
+            ////    void IEnglishSpeaker.Greet()
+            ////    {
+            ////        Console.WriteLine("Hello");
+            ////    } 
+            ////    void IArabicSpeaker.Greet()
+            ////    {
+            ////        Console.WriteLine("Ahlan");
+            ////    }
+            ////}
 
 
 
