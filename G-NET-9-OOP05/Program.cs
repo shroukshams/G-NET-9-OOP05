@@ -71,39 +71,39 @@ namespace G_NET_9_OOP05
 
 
             #region part2
-            Cinema cinema = new Cinema();
-                cinema.Open();
+            //Cinema cinema = new Cinema();
+            //    cinema.Open();
 
-                StandardTicket t1 = new StandardTicket("Inception", 80, "A5");
-                VIPTicket t2 = new VIPTicket("Avengers", 200, true, 50);
-                IMAXTicket t3 = new IMAXTicket("Dune", 130, true);
+            //    StandardTicket t1 = new StandardTicket("Inception", 80, "A5");
+            //    VIPTicket t2 = new VIPTicket("Avengers", 200, true, 50);
+            //    IMAXTicket t3 = new IMAXTicket("Dune", 130, true);
 
-                t1.Book();
-                t2.Book();
-                t3.Book();
+            //    t1.Book();
+            //    t2.Book();
+            //    t3.Book();
 
-                cinema.AddTicket(t1);
-                cinema.AddTicket(t2);
-                cinema.AddTicket(t3);
+            //    cinema.AddTicket(t1);
+            //    cinema.AddTicket(t2);
+            //    cinema.AddTicket(t3);
 
-                cinema.PrintAllTickets();
+            //    cinema.PrintAllTickets();
 
-                Console.WriteLine("\n--- Clone Test ---");
-                VIPTicket clone = (VIPTicket)t2.Clone();
-                clone.MovieName = "Interstellar";
+            //    Console.WriteLine("\n--- Clone Test ---");
+            //    VIPTicket clone = (VIPTicket)t2.Clone();
+            //    clone.MovieName = "Interstellar";
 
-                Console.WriteLine("Original : " + t2.Print());
-                Console.WriteLine("Clone    : " + clone.Print());
+            //    Console.WriteLine("Original : " + t2.Print());
+            //    Console.WriteLine("Clone    : " + clone.Print());
 
-                Console.WriteLine("\n--- After Cancellation ---");
-                t1.Cancel();
-                Console.WriteLine(t1.Print());
+            //    Console.WriteLine("\n--- After Cancellation ---");
+            //    t1.Cancel();
+            //    Console.WriteLine(t1.Print());
 
-                IPrintable[] tickets = { t1, t2, t3 };
-                BookingHelper.PrintAll(tickets);
+            //    IPrintable[] tickets = { t1, t2, t3 };
+            //    BookingHelper.PrintAll(tickets);
 
-                Console.WriteLine("\n=== Cinema Closed ===");
-            }
+            //    Console.WriteLine("\n=== Cinema Closed ===");
+            //}
 
 
 
