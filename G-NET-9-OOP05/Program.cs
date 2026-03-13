@@ -56,13 +56,13 @@ namespace G_NET_9_OOP05
 
             #endregion
             #region Q4 : Look at the following code and determine the output. Explain why.
-            //Output:
-            //Dev - Testing
-            //QA - Testing
-            //Explanation:
-            //In this code, we have an Employee class that contains a Title and a reference to a Department object. When we create e1 and then call ShallowCopy() to create e2, we are creating a shallow copy of e1. This means that e2 is a new Employee object, but it references the same Department object as e1.
-            //When we change e2.Title to "QA", it does not affect e1.Title, which remains "Dev". However, when we change e2.Dept.Name to "Testing", it affects e1.Dept.Name as well because both e1 and e2 reference the same Department object. Therefore, both e1 and e2 will show "Testing" for the department name, while their titles will differ.
-            //This illustrates the concept of a shallow copy, where the reference-type fields (like Dept) are shared between the original and the copied object, leading to potential side effects when one of them is modified.
+            ////Output:
+            ////Dev - Testing
+            ////QA - Testing
+            ////Explanation:
+            ////In this code, we have an Employee class that contains a Title and a reference to a Department object. When we create e1 and then call ShallowCopy() to create e2, we are creating a shallow copy of e1. This means that e2 is a new Employee object, but it references the same Department object as e1.
+            ////When we change e2.Title to "QA", it does not affect e1.Title, which remains "Dev". However, when we change e2.Dept.Name to "Testing", it affects e1.Dept.Name as well because both e1 and e2 reference the same Department object. Therefore, both e1 and e2 will show "Testing" for the department name, while their titles will differ.
+            ////This illustrates the concept of a shallow copy, where the reference-type fields (like Dept) are shared between the original and the copied object, leading to potential side effects when one of them is modified.
         
 
             #endregion
